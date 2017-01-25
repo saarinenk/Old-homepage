@@ -173,7 +173,7 @@ hr {
     filter: alpha(opacity=50); /* For IE8 and earlier */
 }
 
-.first-image:hover > .hov {
+.first-image:hover > .link, .first-image:hover > .hov {
     opacity: 0.2;
 }
 
