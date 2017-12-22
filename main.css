@@ -143,6 +143,10 @@ footer {
   box-shadow: 2px 5px #CCD1D1;
 }
 
+.box:hover {
+  opacity: 0.7;
+}
+
 #tetris,
 #design {
   width: 300px;
