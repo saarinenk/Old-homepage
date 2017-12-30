@@ -140,12 +140,15 @@ footer {
   width: 90px;
   display: inline-block;
   margin: 10px;
-  box-shadow: 2px 4px 5px #CCD1D1;
+  box-shadow: 4px 4px 5px #CCD1D1;
   opacity: 0.7;
 }
 
 .box:hover {
   opacity: 1;
+  box-shadow: 8px 8px 8px #CCD1D1;
+  border: 0.5px solid #C9CFCF;
+  font-weight: bold;
 }
 
 #skills {
@@ -191,26 +194,32 @@ hr {
     opacity: 0;
     padding: 0px 50px 20px;
     position: absolute;
-    top: 100px;
+    top: 10px;
     font-size: 16px;
   }
 
   #tetris {
-    width: 300px;
+    width: 200px;
   }
 
   #vjp {
-    width: 500px;
+    width: 400px;
+  }
+
+  #wapp {
+    width: 350px;
   }
 
 .first-image,
-.second-image {
+.second-image,
+.third-image {
     padding-bottom: 30px;
     position: relative;
 }
 
 .first-image:hover > .text,
-.second-image:hover > .text {
+.second-image:hover > .text,
+.third-image:hover > .text {
      opacity: 1;
    }
 
@@ -220,43 +229,9 @@ hr {
 }
 
 .first-image:hover > .link, .first-image:hover > .hov,
-.second-image:hover > .link, .second-image:hover > .hov {
+.second-image:hover > .link, .second-image:hover > .hov,
+.third-image:hover > .link, .third-image:hover > .hov {
     opacity: 0.2;
-}
-
-div[class^=circle] {
-    background:#bfbfbf;
-    border-radius:100%;
-    display:inline-block;
-    height:20px;
-    width:20px;
-    overflow:hidden;
-    position:relative;
-}
-div[class^=circle]:after {
-    content:'';
-    position:absolute;
-    display:block;
-    height:100%;
-    left:0;
-    background:#CDAB70;
-}
-
-div.circle50:after {
-    width:50%;
-}
-
-div.circle100:after {
-    width:100%;
-}
-
-div.circle0:after {
-    width:0%;
-}
-
-#circles {
-    text-align: left;
-    padding-left: 80px;
 }
 
 h4 {
